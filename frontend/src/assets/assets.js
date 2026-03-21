@@ -99,7 +99,7 @@ export const products = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 100,
         image: [p_img1],
         category: "Women",
@@ -111,7 +111,7 @@ export const products = [
     {
         _id: "aaaab",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 200,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
         category: "Men",
@@ -123,7 +123,7 @@ export const products = [
     {
         _id: "aaaac",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 220,
         image: [p_img3],
         category: "Kids",
@@ -135,7 +135,7 @@ export const products = [
     {
         _id: "aaaad",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 110,
         image: [p_img4],
         category: "Men",
@@ -147,7 +147,7 @@ export const products = [
     {
         _id: "aaaae",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 130,
         image: [p_img5],
         category: "Women",
@@ -158,8 +158,8 @@ export const products = [
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "13",
+        description: "13 crafted for comfort and style with quality material, a modern fit, and versatile everyday appeal.",
         price: 140,
         image: [p_img6],
         category: "Kids",
@@ -171,7 +171,7 @@ export const products = [
     {
         _id: "aaaag",
         name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Tapered Fit Flat-Front Trousers designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 190,
         image: [p_img7],
         category: "Men",
@@ -183,7 +183,7 @@ export const products = [
     {
         _id: "aaaah",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 140,
         image: [p_img8],
         category: "Men",
@@ -195,7 +195,7 @@ export const products = [
     {
         _id: "aaaai",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 100,
         image: [p_img9],
         category: "Kids",
@@ -207,7 +207,7 @@ export const products = [
     {
         _id: "aaaaj",
         name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Tapered Fit Flat-Front Trousers designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 110,
         image: [p_img10],
         category: "Men",
@@ -219,7 +219,7 @@ export const products = [
     {
         _id: "aaaak",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 120,
         image: [p_img11],
         category: "Men",
@@ -231,7 +231,7 @@ export const products = [
     {
         _id: "aaaal",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 150,
         image: [p_img12],
         category: "Men",
@@ -243,7 +243,7 @@ export const products = [
     {
         _id: "aaaam",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 130,
         image: [p_img13],
         category: "Women",
@@ -255,7 +255,7 @@ export const products = [
     {
         _id: "aaaan",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 160,
         image: [p_img14],
         category: "Kids",
@@ -267,7 +267,7 @@ export const products = [
     {
         _id: "aaaao",
         name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Tapered Fit Flat-Front Trousers designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 140,
         image: [p_img15],
         category: "Men",
@@ -279,7 +279,7 @@ export const products = [
     {
         _id: "aaaap",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 170,
         image: [p_img16],
         category: "Kids",
@@ -291,7 +291,7 @@ export const products = [
     {
         _id: "aaaaq",
         name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Tapered Fit Flat-Front Trousers designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 150,
         image: [p_img17],
         category: "Men",
@@ -303,7 +303,7 @@ export const products = [
     {
         _id: "aaaar",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 180,
         image: [p_img18],
         category: "Kids",
@@ -315,7 +315,7 @@ export const products = [
     {
         _id: "aaaas",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 160,
         image: [p_img19],
         category: "Kids",
@@ -327,7 +327,7 @@ export const products = [
     {
         _id: "aaaat",
         name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Palazzo Pants with Waist Belt designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 190,
         image: [p_img20],
         category: "Women",
@@ -339,7 +339,7 @@ export const products = [
     {
         _id: "aaaau",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 170,
         image: [p_img21],
         category: "Women",
@@ -351,7 +351,7 @@ export const products = [
     {
         _id: "aaaav",
         name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Palazzo Pants with Waist Belt designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 200,
         image: [p_img22],
         category: "Women",
@@ -363,7 +363,7 @@ export const products = [
     {
         _id: "aaaaw",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 180,
         image: [p_img23],
         category: "Kids",
@@ -375,7 +375,7 @@ export const products = [
     {
         _id: "aaaax",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 210,
         image: [p_img24],
         category: "Kids",
@@ -387,7 +387,7 @@ export const products = [
     {
         _id: "aaaay",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 190,
         image: [p_img25],
         category: "Kids",
@@ -399,7 +399,7 @@ export const products = [
     {
         _id: "aaaaz",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 220,
         image: [p_img26],
         category: "Women",
@@ -411,7 +411,7 @@ export const products = [
     {
         _id: "aaaba",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 200,
         image: [p_img27],
         category: "Kids",
@@ -423,7 +423,7 @@ export const products = [
     {
         _id: "aaabb",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 230,
         image: [p_img28],
         category: "Men",
@@ -435,7 +435,7 @@ export const products = [
     {
         _id: "aaabc",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 210,
         image: [p_img29],
         category: "Women",
@@ -447,7 +447,7 @@ export const products = [
     {
         _id: "aaabd",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 240,
         image: [p_img30],
         category: "Kids",
@@ -459,7 +459,7 @@ export const products = [
     {
         _id: "aaabe",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 220,
         image: [p_img31],
         category: "Men",
@@ -471,7 +471,7 @@ export const products = [
     {
         _id: "aaabf",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 250,
         image: [p_img32],
         category: "Men",
@@ -483,7 +483,7 @@ export const products = [
     {
         _id: "aaabg",
         name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Girls Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 230,
         image: [p_img33],
         category: "Kids",
@@ -495,7 +495,7 @@ export const products = [
     {
         _id: "aaabh",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 260,
         image: [p_img34],
         category: "Women",
@@ -507,7 +507,7 @@ export const products = [
     {
         _id: "aaabi",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 240,
         image: [p_img35],
         category: "Women",
@@ -519,7 +519,7 @@ export const products = [
     {
         _id: "aaabj",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 270,
         image: [p_img36],
         category: "Women",
@@ -531,7 +531,7 @@ export const products = [
     {
         _id: "aaabk",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Round Neck Cotton Top with a lightweight feel, flattering fit, and versatile styling that works for daily wear and casual outings.",
         price: 250,
         image: [p_img37],
         category: "Women",
@@ -543,7 +543,7 @@ export const products = [
     {
         _id: "aaabl",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 280,
         image: [p_img38],
         category: "Men",
@@ -555,7 +555,7 @@ export const products = [
     {
         _id: "aaabm",
         name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Printed Plain Cotton Shirt tailored for a smart casual style with breathable comfort, neat structure, and reliable day-to-day wear.",
         price: 260,
         image: [p_img39],
         category: "Men",
@@ -567,7 +567,7 @@ export const products = [
     {
         _id: "aaabn",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 290,
         image: [p_img40],
         category: "Men",
@@ -579,7 +579,7 @@ export const products = [
     {
         _id: "aaabo",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 270,
         image: [p_img41],
         category: "Men",
@@ -591,7 +591,7 @@ export const products = [
     {
         _id: "aaabp",
         name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Boy Round Neck Pure Cotton T-shirt made with soft, breathable fabric for everyday comfort, easy movement, and a clean casual look.",
         price: 300,
         image: [p_img42],
         category: "Kids",
@@ -603,7 +603,7 @@ export const products = [
     {
         _id: "aaabq",
         name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Kid Tapered Slim Fit Trouser designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 280,
         image: [p_img43],
         category: "Kids",
@@ -615,7 +615,7 @@ export const products = [
     {
         _id: "aaabr",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 310,
         image: [p_img44],
         category: "Women",
@@ -627,7 +627,7 @@ export const products = [
     {
         _id: "aaabs",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 290,
         image: [p_img45],
         category: "Men",
@@ -639,7 +639,7 @@ export const products = [
     {
         _id: "aaabt",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 320,
         image: [p_img46],
         category: "Men",
@@ -651,7 +651,7 @@ export const products = [
     {
         _id: "aaabu",
         name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Kid Tapered Slim Fit Trouser designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 300,
         image: [p_img47],
         category: "Kids",
@@ -663,7 +663,7 @@ export const products = [
     {
         _id: "aaabv",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 330,
         image: [p_img48],
         category: "Men",
@@ -675,7 +675,7 @@ export const products = [
     {
         _id: "aaabw",
         name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Kid Tapered Slim Fit Trouser designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 310,
         image: [p_img49],
         category: "Kids",
@@ -687,7 +687,7 @@ export const products = [
     {
         _id: "aaabx",
         name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Kid Tapered Slim Fit Trouser designed for a comfortable fit, smooth drape, and all-day ease with a modern, polished finish.",
         price: 340,
         image: [p_img50],
         category: "Kids",
@@ -698,7 +698,7 @@ export const products = [
     {
         _id: "aaaby",
         name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Women Zip-Front Relaxed Fit Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 320,
         image: [p_img51],
         category: "Women",
@@ -710,7 +710,7 @@ export const products = [
     {
         _id: "aaabz",
         name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "Men Slim Fit Relaxed Denim Jacket featuring a relaxed silhouette, cozy comfort, and a stylish outer layer perfect for cooler weather.",
         price: 350,
         image: [p_img52],
         category: "Men",
