@@ -7,6 +7,11 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const {setShowSearch , getCartCount, navigate, token, setToken, setCartItems } =useContext(ShopContext);
 
+  const handleSearchClick = () => {
+    setShowSearch(true);
+    navigate('/collection');
+  };
+
   const logout = () => {
     navigate("/login");
     localStorage.removeItem('token')
@@ -44,7 +49,7 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center gap-6">
         <img
-          onClick={() => setShowSearch(true)}
+          onClick={handleSearchClick}
           src={assets.search_icon}
           className="w-5 cursor-pointer"
           alt=""

@@ -18,7 +18,7 @@ const Orders = ({token}) => {
       
       const response = await axios.post(backendUrl + '/api/order/list', {}, { headers: { token } });
       if (response.data.success) {
-        setOrders(response.data.orders);
+        setOrders(response.data.orders.reverse());
       }else{
         toast.error(response.data.message);
       }
@@ -27,6 +27,19 @@ const Orders = ({token}) => {
       toast.error(error.message);
     }
   
+  }
+
+  const statusHandler = async (event, orderId) => {
+    try {
+      const response = await axios.post(backendUrl + '/api/order/status', { orderId, status: event.target.value }, { headers: { token } });
+      if (response.data.success) {
+        await fetchAllOrders();
+        
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error(error.message);
+    }
   }
 
   useEffect(() => {
@@ -58,7 +71,7 @@ const Orders = ({token}) => {
                 }
               })}
             </div>
-            <p>{(JSON.parse(order.address)).firstName + " " + (JSON.parse(order.address)).lastName}</p>
+            <p className='mt-3 mb-2 font-medium'>{(JSON.parse(order.address)).firstName + " " + (JSON.parse(order.address)).lastName}</p>
             <div>
               <p>{(JSON.parse(order.address)).street + ","}</p>
               {/* <p>{order.address.street}</p> */}
@@ -67,13 +80,13 @@ const Orders = ({token}) => {
             <p>{(JSON.parse(order.address)).phone}</p>
             </div>
             <div>
-              <p>Items : {order.items.length} </p>
-              <p>Method : {order.paymentMethod}</p>
+              <p className='text-sm sm:text-[15px]' >Items : {order.items.length} </p>
+              <p className='mt-3' >Method : {order.paymentMethod}</p>
               <p>Payment : { order.payment ? 'Done' :'Pending' }</p>
               <p>Date:{new Date(order.date || order.Date).toLocaleDateString()}</p>
             </div>
-            <p>{currency}{order.amount}</p>
-            <select>
+            <p  className='text-sm sm:text-[15px]'>{currency}{order.amount}</p>
+            <select onChange={(event)=> statusHandler(event,order._id)} value={order.status} className='p-2 font-semibold'>
               <option value="Order Placed">Order Placed</option>
               <option value="processing">Processing</option>
               <option value="shipped">Shipped</option>
