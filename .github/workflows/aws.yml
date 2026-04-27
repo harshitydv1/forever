@@ -6,9 +6,9 @@ on:
 
 env:
   AWS_REGION: us-east-1 # Change to your preferred region
-  BACKEND_ECR_REPOSITORY: docto-backend
-  FRONTEND_ECR_REPOSITORY: docto-frontend
-  ADMIN_ECR_REPOSITORY: docto-admin
+  BACKEND_ECR_REPOSITORY: forever-backend
+  FRONTEND_ECR_REPOSITORY: forever-frontend
+  ADMIN_ECR_REPOSITORY: forever-admin
   ECS_CLUSTER: docto-cluster
   ECS_BACKEND_SERVICE: docto-backend-service
   ECS_FRONTEND_SERVICE: docto-frontend-service
