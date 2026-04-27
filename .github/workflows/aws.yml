@@ -9,7 +9,7 @@ env:
   BACKEND_ECR_REPOSITORY: forever-backend
   FRONTEND_ECR_REPOSITORY: forever-frontend
   ADMIN_ECR_REPOSITORY: forever-admin
-  ECS_CLUSTER: forever-cluster
+  ECS_CLUSTER: forever-app-cluster
   ECS_BACKEND_SERVICE: forever-backend-service
   ECS_FRONTEND_SERVICE: forever-frontend-service
   ECS_ADMIN_SERVICE: forever-admin-service
