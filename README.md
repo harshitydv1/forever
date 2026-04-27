@@ -13,7 +13,42 @@ A modern, full-stack e-commerce platform built with React, Node.js, and MongoDB.
 - [Environment Variables](#environment-variables)
 - [API Endpoints](#api-endpoints)
 - [Features](#features)
-- [CI/CD](#cicd)
+- [CI/CD & Deployment](#cicd--deployment)
+
+## 🏗 CI/CD & Deployment
+
+This project is configured for automated deployment to **AWS ECS (Fargate)** using **GitHub Actions**.
+
+### Section 1: Amazon ECR (Container Registry)
+- **Repositories**: Created for `docto-backend`, `docto-frontend`, and `docto-admin`.
+- **Tagging Strategy**: Uses `latest` for the most recent build and `github.sha` (commit hash) for versioning/rollbacks.
+
+### Section 2: Amazon ECS (Container Orchestration)
+- **Cluster**: `docto-cluster` (AWS Fargate).
+- **Task Definitions**: Defined in [.aws/](.aws/) folder for each service.
+- **Services**: `docto-backend-service`, `docto-frontend-service`, `docto-admin-service`.
+
+### Section 3: CI/CD Pipeline (GitHub Actions)
+The workflow file is located at [.github/workflows/aws.yml](.github/workflows/aws.yml).
+
+#### Configuration Steps:
+1. **AWS Setup**:
+   - Create an ECS Cluster named `docto-cluster`.
+   - Create three ECR repositories: `docto-backend`, `docto-frontend`, `docto-admin`.
+   - Create an IAM user with `AmazonEC2ContainerRegistryFullAccess` and `AmazonECS_FullAccess`.
+
+2. **GitHub Secrets**:
+   Add the following secrets to your repository (`Settings > Secrets and variables > Actions`):
+   - `AWS_ACCESS_KEY_ID`: Your AWS Access Key.
+   - `AWS_SECRET_ACCESS_KEY`: Your AWS Secret Key.
+
+3. **Task Definition Update**:
+   - Open [.aws/*.json](.aws/) files.
+   - Replace `ACCOUNT_ID` with your actual AWS Account ID in `executionRoleArn` and `taskRoleArn`.
+
+4. **Pipeline Execution**:
+   - Every push to the `main` branch triggers the workflow.
+   - It builds the Docker images, pushes them to ECR, updates the Task Definitions, and deploys to ECS.
 
 ## 🎯 Project Overview
 
