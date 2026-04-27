@@ -24,9 +24,9 @@ This project is configured for automated deployment to **AWS ECS (Fargate)** usi
 - **Tagging Strategy**: Uses `latest` for the most recent build and `github.sha` (commit hash) for versioning/rollbacks.
 
 ### Section 2: Amazon ECS (Container Orchestration)
-- **Cluster**: `docto-cluster` (AWS Fargate).
+- **Cluster**: `forever-cluster` (AWS Fargate).
 - **Task Definitions**: Defined in [.aws/](.aws/) folder for each service.
-- **Services**: `docto-backend-service`, `docto-frontend-service`, `docto-admin-service`.
+- **Services**: `forever-backend-service`, `forever-frontend-service`, `forever-admin-service`.
 
 ### Section 3: CI/CD Pipeline (GitHub Actions)
 The workflow file is located at [.github/workflows/aws.yml](.github/workflows/aws.yml).

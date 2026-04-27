@@ -9,10 +9,10 @@ env:
   BACKEND_ECR_REPOSITORY: forever-backend
   FRONTEND_ECR_REPOSITORY: forever-frontend
   ADMIN_ECR_REPOSITORY: forever-admin
-  ECS_CLUSTER: docto-cluster
-  ECS_BACKEND_SERVICE: docto-backend-service
-  ECS_FRONTEND_SERVICE: docto-frontend-service
-  ECS_ADMIN_SERVICE: docto-admin-service
+  ECS_CLUSTER: forever-cluster
+  ECS_BACKEND_SERVICE: forever-backend-service
+  ECS_FRONTEND_SERVICE: forever-frontend-service
+  ECS_ADMIN_SERVICE: forever-admin-service
   ECS_BACKEND_TASK_DEFINITION: .aws/backend-task-definition.json
   ECS_FRONTEND_TASK_DEFINITION: .aws/frontend-task-definition.json
   ECS_ADMIN_TASK_DEFINITION: .aws/admin-task-definition.json
